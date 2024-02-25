@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "À beira-mar, o pôr do sol é um espetáculo de cores. Com as ondas quebrando suavemente, é um momento de paz e beleza. Admirar esse cenário nos faz sentir calmos e gratos.",
+      "autoria": "Pôr do Sol na Praia",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "O amor incondicional de um animal de estimação é um presente precioso. Com seus olhos brilhantes e afagos carinhosos, eles trazem alegria e conforto aos nossos corações. Seja um gato ronronando em nosso colo ou um cachorro abanando o rabo de felicidade, seu amor é uma luz em nossas vidas.",
+      "autoria": "O Amor de um Animal de Estimação:",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "agua mole pedra dura, tanto bate até que fura",
+      "autoria": "Expressão popular",
+      "modelo": "modelo3"
+    }
+  ]
+}
