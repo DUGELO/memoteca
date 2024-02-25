@@ -1,27 +1,47 @@
 # Memoteca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Este é um projeto de uma memoteca desenvolvido em Angular. A memoteca é uma aplicação web que permite aos usuários cadastrar, visualizar, editar e excluir memórias.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Cadastro de memórias
+- Visualização de memórias
+- Edição de memórias
+- Exclusão de memórias
 
-## Code scaffolding
+## Tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- Angular CLI
+- HTML
+- CSS
+- TypeScript
+- JSON Server
 
-## Build
+## Como executar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório
+2. Instale as dependências com o comando `npm install`
+3. dentro da pasta "backend" execute o comando `json-server --watch memorias.json` para iniciar o servidor JSON
+5. Em outro terminal,na pasta "memoteca" execute o comando `ng serve` para iniciar o servidor de desenvolvimento do Angular
+6. Acesse a aplicação em `http://localhost:4200`
 
-## Running unit tests
+Certifique-se de ter o JSON Server instalado globalmente em sua máquina. Caso não tenha, você pode instalá-lo com o comando `npm install -g json-server`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Configuração do JSON Server
 
-## Running end-to-end tests
+O JSON Server será responsável por criar uma API RESTful a partir do arquivo `db.json`. Certifique-se de que o arquivo `db.json` esteja corretamente configurado com os dados da sua memoteca.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Consumindo a API com o Angular
 
-## Further help
+No projeto Angular, utilize o `HttpClient` para fazer as requisições HTTP para a API criada pelo JSON Server. Você pode encontrar exemplos de como fazer isso nos componentes relacionados às funcionalidades de cadastro, visualização, edição e exclusão de memórias.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuição
+
+Contribuições são sempre bem-vindas! Se você encontrou algum bug, tem alguma sugestão de melhoria ou deseja adicionar uma nova funcionalidade, fique à vontade para abrir uma issue ou enviar um pull request.
+
+## Créditos
+
+Este projeto foi desenvolvido com base no curso "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD" da [Alura](https://www.alura.com.br/). Agradeço à [Nayanne Batista](https://github.com/NayanneBatista), instrutora do curso, por compartilhar seus conhecimentos e contribuir para o meu aprendizado.
+
+Link para o curso: [Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD](https://cursos.alura.com.br/course/angular-explorando-framework)
