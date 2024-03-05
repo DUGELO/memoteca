@@ -22,7 +22,7 @@ Este é um projeto de uma memoteca desenvolvido em Angular. A memoteca é uma ap
 
 1. Clone este repositório
 2. Instale as dependências com o comando `npm install`
-3. dentro da pasta "backend" execute o comando `json-server --watch memorias.json` para iniciar o servidor JSON
+3. dentro da pasta "backend" execute o comando `json-server --watch db.json` para iniciar o servidor JSON
 5. Em outro terminal,na pasta "memoteca" execute o comando `ng serve` para iniciar o servidor de desenvolvimento do Angular
 6. Acesse a aplicação em `http://localhost:4200`
 
